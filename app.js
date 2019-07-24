@@ -2,7 +2,7 @@ const url = 'https://acme-users-api-rev.herokuapp.com/api/users/'
 
 let currentPageNo = '';
 const loc = location.href;
-if (loc.includes('#') && loc.split('#').length == 2) {
+if (loc.includes('#') && loc.split('#').length === 2) {
     currentPageNo = loc.split('#')[1];
 }
 
